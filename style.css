@@ -2,4 +2,59 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
 }
+
+#header h1 {
+  text-align: center;
+}
+
+#main img{
+  display: block;
+  margin: auto;
+}
+
+#nav ul{
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav ul li {
+  display: inline;
+}
+
+#nav a {
+   padding: 10px 20px;
+   background-color: hotpink;
+   color: white;
+   text-decoration: none;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.8cm;
+}
+
+#featured-property { 
+  width: 800px;
+  margin: auto;
+}
+
+#featured-property p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#details {
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: deeppink;
+  padding: 10px;
+}
+
